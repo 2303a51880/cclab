@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP and HTML Example</title>
+</head>
+<body>
+
+    <h1>Welcome to my PHP Page!</h1>
+
+    <?php
+        // This is a single-line PHP comment
+        $name = "World"; // Declaring a variable in PHP
+        echo "<p>Hello, " . $name . "!</p>"; // Outputting HTML using PHP echo
+    ?>
+
+    <p>This is some more static HTML content.</p>
+
+    <?php
+        /*
+         * This is a multi-line PHP comment.
+         * You can add more lines of comments here.
+         */
+        $currentYear = date("Y"); // Getting the current year using a PHP function
+        echo "<p>&copy; " . $currentYear . " My Website</p>";
+    ?>
+
+</body>
+</html>
